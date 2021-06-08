@@ -11,6 +11,7 @@
             <ColumnDefinition Width="0*"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
+        <Label Content="Hello World" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="333,175,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
