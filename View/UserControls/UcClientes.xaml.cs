@@ -22,5 +22,15 @@ namespace mentoriasti3.View.UserControls
         {
             InitializeComponent();
         }
+
+        private void BtnAlterar_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BtnAdicionar_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

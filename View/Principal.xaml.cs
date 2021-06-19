@@ -1,4 +1,5 @@
-﻿using System;
+﻿using mentoriasti3.View.UserControls;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -25,6 +26,21 @@ namespace mentoriasti3.View
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void BtnProdutos_Click(object sender, RoutedEventArgs e)
+        {
+            Conteudo.Content = new UcProdutos();
+        }
+
+        private void BtnClientes_Click(object sender, RoutedEventArgs e)
+        {
+            Conteudo.Content = new UcClientes();
+        }
+
+        private void BtnPedido_Click(object sender, RoutedEventArgs e)
+        {
+            Conteudo.Content = new UcPedido();
         }
     }
 }
